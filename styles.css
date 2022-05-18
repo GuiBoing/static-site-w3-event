@@ -1,0 +1,30 @@
+/* body,
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url("src/gelo.png");
+    background-color: #282923;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 125%;
+    left: 0px;
+    top: 0px;
+    filter: blur(25px);
+}
+.content{
+    filter: blur(0px);
+} */
+
+canvas {
+    width: 100%;
+    max-width: 900px;
+}
