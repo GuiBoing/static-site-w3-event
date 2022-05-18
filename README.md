@@ -47,3 +47,5 @@ Good luck! we hope to see many submissions by the end of the event!
 We will showcase the best 3 in the post-event announcement after all projects are reviewed. 
 
 More info in: https://discord.com/invite/GVJeD3kWKj channel #event-announcements
+
+figma preview https://www.figma.com/file/4Fwo8eDq3m8Z8IlA2Q1afb/Untitled?node-id=15%3A250
