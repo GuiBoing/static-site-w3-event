@@ -2,7 +2,7 @@ const data = {
   labels: ["\uf13b HTML", "\uf3b8 Javascript ", "\uf420 Angular", "\uf38b CSS"],
   datasets: [
     {
-      label: "tempo utilizando a tecnologia (anos)",
+      label: "Months using tool:",
       backgroundColor: "#0B13D1",
       borderColor: "black",
       borderWidth: "1",
@@ -10,7 +10,7 @@ const data = {
       data: [7.5, 5.3, 0.8, 7]
     },
     {
-      label: "Total de Anos trabalhando com a tecnologia",
+      label: "Total months working with:",
       backgroundColor: "#8E00FD",
       borderColor: "black",
       borderWidth: "1",
@@ -18,7 +18,7 @@ const data = {
       data: [2, 2, 2, 2]
     },
     {
-      label: "Cursos efetuados sobre a tecnologia",
+      label: "Cursos finalizados na área ",
       backgroundColor: "#F2AE00",
       borderColor: "black",
       borderWidth: "1",

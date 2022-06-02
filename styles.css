@@ -1,28 +1,50 @@
-/* body,
+/* 
+.content{
+    filter: blur(0px);
+} */
+
+body,
 html {
     height: 100%;
+    background-color: #282923;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+
 }
 
 * {
     box-sizing: border-box;
 }
 
-.bg-image {
-    background-image: url("src/gelo.png");
-    background-color: #282923;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 125%;
-    left: 0px;
-    top: 0px;
-    filter: blur(25px);
+@media (min-width: 767.98px) {
+    nav[role="navigation"] {
+        padding: 0.3em 8vw;
+    }
+    a{
+        font-size: 0.2rem;
+    }
 }
-.content{
-    filter: blur(0px);
-} */
+
+section{
+    width: 100vw;
+    height: 98vh;
+}
+
+
+a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.anchor-links {
+    padding: 1.5vh 1.5rem;
+    margin: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
 
 canvas {
     width: 100%;
