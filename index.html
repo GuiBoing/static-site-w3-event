@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Boing.UI Resume</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -19,7 +19,7 @@
 
 <body>
   <header>
-    <nav role="navigation">
+    <nav role="navigation" id="navbar">
       <ul class="anchor-links">
         <li><a target="_self" href="#section-resume" class="anchor-link">Resume</a></li>
         <li><a target="_self" href="#section-knowledge" class="anchor-link">Knowledge Graph</a></li>
@@ -30,28 +30,34 @@
     </nav>
   </header>
 
-  <main role="main">
-    <div class="content"></div>
-    <section class="section1">
+  <main role="main" class="container-fluid">
+    <section id="intro-banner" class="text-center">
+      <div id="intro-banner-content" class="row">
+        <div class="col-md-6 " id="intro-banner-text">
+          <h1 id="text-intro-banner-1">Portifólio</h1>
+          <h1 id="text-intro-banner-2"><b>Guilherme Henrique Boing</b></h1>
+          <h4 id="text-intro-banner-4">Curriculo.</h4>
+        </div>
+        <div class="col-md-6" id="intro-banner-image">
+          <img src="src/bagre.jpg" alt="picture of me" class="me-photo ">
+        </div>
+
+      </div>
+    </section>
+    <section id="section-resume" class="row">
+    </section>
+    <section id="section-knowledge" class="row">
+      <div class="canvas-space">
+        <canvas id="myChart" height="350"></canvas>
+      </div>
+    </section>
+    <section id="section-timeline" class="row">
 
     </section>
-
-    <section id="section-resume" class="section2">
-
-    </section>
-
-    <section id="section-knowledge" class="section3">
-      <canvas id="myChart"></canvas>
-    </section>
-
-    <section id="section-timeline" class="section4">
+    <section id="section-recommendations" class="row">
 
     </section>
-    
-    <section id="section-recommendations" class="section5">
-
-    </section>
-    <section id="section-projects" class="section6">
+    <section id="section-projects" class="row">
 
     </section>
   </main>
@@ -64,6 +70,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="./scripts.js"></script>
+<script src="./graph.js"></script>
 
 
 </html>

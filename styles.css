@@ -9,6 +9,9 @@ html {
     background-color: #282923;
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
+    background-size: auto 450px;
+    background-image: url(src/gelo-blur.jpg);
+    
 
 }
 
@@ -16,18 +19,17 @@ html {
     box-sizing: border-box;
 }
 
-@media (min-width: 767.98px) {
-    nav[role="navigation"] {
-        padding: 0.3em 8vw;
-    }
-    a{
-        font-size: 0.2rem;
-    }
+#navbar{
+    position: fixed;
+    top: -5em;
+    width: 100%; 
+    transition: top 0.3s; 
 }
 
+
+
 section{
-    width: 100vw;
-    height: 98vh;
+    min-height: 98vh;
 }
 
 
@@ -46,7 +48,36 @@ ul.anchor-links {
     justify-content: space-between;
 }
 
-canvas {
+.canvas-space {
     width: 100%;
-    max-width: 900px;
+    height: 55vh;   
+}
+
+#intro-banner-content{
+    margin: 5vh 0.3em;
+    width: auto;
+    background-color: rgba(196, 196, 196, 0.01);
+    box-shadow: 0px 4px 42px 0px rgba(0, 0, 0, 1);
+    color:white;
+}
+.intro-banner-inside{
+ padding: 1em;
+}
+.me-photo{
+    width: 15em;
+    border-radius: 160px;
+}
+#intro-banner-text{
+}
+
+@media (min-width: 767.98px) {
+    nav[role="navigation"] {
+        padding: 0.3em 8vw;
+    }
+    a{
+        font-size: 1.5em;
+    }
+    #intro-banner-content{
+        margin: 20vh 0.3em;
+    }
 }
