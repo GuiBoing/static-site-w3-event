@@ -22,7 +22,7 @@
     <nav role="navigation" id="navbar">
       <ul class="anchor-links">
         <li><a target="_self" href="#section-resume" class="anchor-link">Resume</a></li>
-        <li><a target="_self" href="#section-knowledge" class="anchor-link">Knowledge Graph</a></li>
+        <li><a target="_self" href="#section-graph" class="anchor-link">Knowledge Graph</a></li>
         <li><a target="_self" href="#section-timeline" class="anchor-link">Timeline</a></li>
         <li><a target="_self" href="#section-recommendations" class="anchor-link">Recommendations</a></li>
         <li><a target="_self" href="#section-projects" class="anchor-link">Projects</a></li>
@@ -31,24 +31,67 @@
   </header>
 
   <main role="main" class="container-fluid">
-    <section id="intro-banner" class="text-center">
+
+    <section id="section-intro" class="">
       <div id="intro-banner-content" class="row">
-        <div class="col-md-6 " id="intro-banner-text">
-          <h1 id="text-intro-banner-1">Portifólio</h1>
-          <h1 id="text-intro-banner-2"><b>Guilherme Henrique Boing</b></h1>
-          <h4 id="text-intro-banner-4">Curriculo.</h4>
+        <div class="col text-center " id="intro-banner-headings">
+          <h1 id="text-intro-banner display-1">Portifólio</h1>
+          <h1 id="text-intro-banner display-1"><b>Guilherme Henrique Boing</b></h1>
+          <h4 id="text-intro-banner">Front End Developer, UI/UX.</h4>
         </div>
-        <div class="col-md-6" id="intro-banner-image">
+        <div class="col text-center" id="intro-banner-image">
           <img src="src/bagre.jpg" alt="picture of me" class="me-photo ">
         </div>
 
       </div>
+      
     </section>
+
     <section id="section-resume" class="row">
+      <div class="resume-description">
+        <h5 class="resume-heading-text display-5"><b>Bem vindo ao meu Portifólio!</b></h5>
+        <hr>
+        <p class="resume-description-text">
+          Me chamo <b>Guilherme Henrique Boing</b> e sou um desenvolvedor Front End apaixonado por novas tecnologias, em
+          desenvolver novas habilidades e superar novos desafios.</p>
+      </div>
     </section>
-    <section id="section-knowledge" class="row">
+
+    <br>
+    <section id="section-graph" class="row">
+      <div class="graph-description">
+        <h5 class="graph-heading-text text-center"><b>Gráfico de conhecimento das linguagens que uso</b></h5>
+      </div>
       <div class="canvas-space">
         <canvas id="myChart" height="350"></canvas>
+      </div>
+      <hr class="graph-hr">
+      <div class="other-knowledges">
+        <div class="proglang-knowledges">
+        <div class="tool-knowledges-text">
+          <h5 class="proglang-knowledges-heading">text1</h5>
+          <p class="proglang-knowledges-description">text1</p>
+        </div>
+
+          <ul>
+            <li>text1</li>
+            <li>text2</li>
+            <li>text3</li>
+            <li>text4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tool-knowledges">
+        <div class="tool-knowledges-text">
+          <h5 class="tool-knowledges-heading">text1</h5>
+          <p class="tool-knowledges-description">text1</p>
+        </div>
+        <ul>
+          <li>text1</li>
+          <li>text2</li>
+          <li>text3</li>
+          <li>text4</li>
+        </ul>
       </div>
     </section>
     <section id="section-timeline" class="row">
